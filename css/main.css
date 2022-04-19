@@ -220,8 +220,24 @@ footer{
 
 .divFooter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 1rem;
+    padding: 0;
+}
+
+.twitterIcon {
+    width: 15%;
+    padding: 0;
+}
+
+.facebookIcon {
+    width: 15%;
+    padding: 0;
+}
+
+.instagramIcon {
+    width: 15%;
+    padding: 0;
 }
 
 
