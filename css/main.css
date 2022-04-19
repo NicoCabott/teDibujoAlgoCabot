@@ -29,14 +29,14 @@ header{
     grid-area: header;
     background-image: linear-gradient(#CCA77Aff, #e6b67e);    
     text-align: center;
-
+    position: sticky;
+    top: 0;
 }
 
 nav{
     background-color: #F9E8D5ff;
     padding: 1.5rem;
-    position: sticky;
-    top: 0;
+    
 }
 
 nav ul{
@@ -51,6 +51,13 @@ nav ul li a{
     color: black;
     border-bottom: 1px solid black;
     padding: 0.5rem;
+}
+
+.divHeader{
+    display: flex;
+    background-color: #CCA77Aff;
+    flex-direction: column;
+    text-align: center;
 }
 
 /*transformaciones*/
@@ -78,15 +85,16 @@ h5{
     text-decoration: double;
 }
 
-.logoHonguito{
+.divHeader .logoHonguito{
     width: 10%;
     padding: 0.5rem;
+    text-align: center;
+    align-self: center;
 }
 
 main{
     grid-area: main;
     background-color: beige;
-    padding: 2rem;
 }
 
 h3{
